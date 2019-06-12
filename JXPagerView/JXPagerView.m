@@ -318,8 +318,8 @@
 
     self.isListHorizontalScrollEnabled = YES;
 
-    self.currentDeviceOrientation = [UIDevice currentDevice].orientation;
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceOrientationDidChangeNotification:) name:UIDeviceOrientationDidChangeNotification object:nil];
+//    self.currentDeviceOrientation = [UIDevice currentDevice].orientation;
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceOrientationDidChangeNotification:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 
 - (void)preferredProcessListViewDidScroll:(UIScrollView *)scrollView {
